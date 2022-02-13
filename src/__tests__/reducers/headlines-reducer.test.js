@@ -21,7 +21,7 @@ describe('headlinesReducer', () => {
     );
   });
 
-  test('requesting headlines should usccessfuly change isLoading from false to true', () => {
+  test('requesting headlines should successfuly change isLoading from false to true', () => {
     action = {
       type: constants.REQUEST_HEADLINES
     };
